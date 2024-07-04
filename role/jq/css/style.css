@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#myButton {
+    display: block;      /*ブロック要素として表示*/
+    width: 200px;    /*幅を200pxに設定*/
+    margin: 50% auto 0;   /*上下に50%、左右に自動マージンを設定*/
+    font-size: 20px;   /*フォントサイズを20pxに設定*/
+    line-height: 2;   /*行の高さを2倍に設定*/
+    color: #fff;   /*テキストの色を白色に設定*/
+    background: #3fc748;   /*背景色を緑色に設定*/
+    border: none;   /*枠線を設定せず、背景色と同じくらいの影を追加*/
+    box-shadow: 0 6px 0 #19702c;  
+    border-radius: 10px;   /*ボタンの角を10pxの丸みに設定*/
+    cursor: pointer;   /*カーソルをポインターに変更*/
+}
